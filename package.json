@@ -1,20 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Servidor de backend para estudo da turma b do 3o. Info 2025",
+  "description": "Backend do projeto",
   "main": "src/server.js",
-  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "zod": "^3.24.2"
+  },
   "scripts": {
     "start": "node --watch src/server.js"
   },
-  "keywords": [
-    "nodejs",
-    "express",
-    "zod"
-  ],
-  "author": "Ketlen Vasconcelos Almeida",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
